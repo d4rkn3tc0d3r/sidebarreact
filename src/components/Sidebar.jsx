@@ -116,6 +116,7 @@ const secondarylinksArray = [
     label: "Salir",
     icon: <MdLogout />,
     to: "/login",
+    
   },
 ];
 //#endregion
