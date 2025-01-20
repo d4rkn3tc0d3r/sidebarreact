@@ -4,12 +4,15 @@ import { Estadisticas } from "../pages/Estadisticas";
 import { Productos } from "../pages/Productos";
 import {Diagramas} from "../pages/Diagramas";
 import {Reportes} from "../pages/Reportes";
+import Login from "../pages/Login";
+
 export function MyRoutes() {
   return (
    
      
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/productos" element={<Productos />} />
         <Route path="/estadisticas" element={<Estadisticas />} />
         <Route path="/diagramas" element={<Diagramas />} />
