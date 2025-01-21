@@ -8,5 +8,3 @@ export const PrivateGuard = () => {
     return token ? <Outlet/> : <Navigate to="/login" replace />
 
 }
-    a no
-    si
